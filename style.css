@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar start */
+
+nav {
+    .btnIcons i {
+        cursor: pointer;
+    }
+}
+
+nav .pageTitle {
+    text-align: center;
+    font-weight: bold;
+    color: #cfbebc;
+    cursor: pointer;
+
+    p,
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        line-height: 8px;
+        font-weight: 600;
+    }
+}
+
+/* navbar end */
+
+.hero {
+    background-image: url("./img/heroBg.webp");
+    min-height: 100vh;
+    height: 500px;
+
+    .container {
+        position: relative;
+        height: 100%;
+    }
+
+    .navbar {
+        background-color: transparent !important;
+        color: white;
+
+        a {
+            color: white;
+        }
+    }
+}
+
+.hero-text {
+    color: #fff;
+    max-width: 750px;
+    position: absolute;
+    bottom: 50px;
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .shopBtn {
+        color: #fff;
+        font-size: 22px;
+        background-color: #C5ACA9;
+        padding: 10px 20px;
+        border: 1px solid #C5ACA9;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.scrollbar {
+    width: fit-content;
+    padding-bottom: 10px;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+
+    .card-body {
+        padding: 10px 0;
+    }
+
+    .img {
+        overflow: hidden;
+
+        .card-img-top {
+            transition: all 0.3s;
+            border-radius: 0;
+        }
+
+        .card-img-top:hover {
+            scale: 1.3;
+        }
+    }
+
+    .card-text {
+        color: #7d7d7d;
+    }
+
+    .price span {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        border-radius: 0;
+        color: white;
+        background-color: white;
+        height: 42px;
+        width: 100%;
+    }
+
+    &:hover {
+        .btn {
+            border: 1px solid #C5ACA9;
+            color: black;
+        }
+    }
+}
+
+
+
+.btn:hover {
+    color: #fff !important;
+    background-color: #C5ACA9 !important;
+}
+
+
+/* Shop by category**********/
+
+.shopByCategory {
+    .switchBtn {
+        border-bottom: 0.1px solid #bebebe80;
+
+        .toggleBtn {
+            background-color: transparent;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #999;
+
+            &:hover.notActive {
+                color: #666;
+            }
+        }
+
+        .active {
+            border-bottom: 2px solid #C5ACA9;
+            color: #C5ACA9;
+        }
+    }
+
+}
+
+
+.btnViewAll {
+    color: white;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #C5ACA9;
+
+    &:hover {
+        border: 1px solid #C5ACA9;
+        color: #C5ACA9;
+        background-color: transparent;
+    }
+}
+
+
+section.logo {
+    background-color: #FBF9F9;
+    padding: 100px 0;
+
+    p {
+        color: #AE9E9A;
+        margin-top: 10px;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+}
+
+/* Blog section************************ */
+section.blog {
+    background-color: #FBF9F9;
+    border-bottom: 2px solid #C5ACA9;
+    padding-bottom: 70px;
+
+    .card {
+        width: 260px;
+
+        .img {
+            position: relative;
+
+            p {
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                background-color: rgba(128, 128, 128, 0.348);
+                padding: 2px 8px;
+                border-radius: 8px;
+                font-size: 0.7rem;
+                font-weight: 600;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+
+        &>p {
+            margin-top: 10px;
+            font-size: 1.3rem;
+        }
+    }
+}
+
+/* Bottom section **************** */
+section.bottom {
+    form {
+        input {
+            border: 1px solid #C5ACA9;
+            width: 50%;
+
+        }
+
+        button {
+            padding: 7px 40px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            border: 1px solid #C5ACA9;
+            background-color: #C5ACA9;
+            color: #fff;
+
+        }
+    }
+
+    .rightColumn {
+        h5 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            width: 10rem;
+            border-bottom: 2px solid #C5ACA9;
+        }
+    }
+}
+
+
+/* fotter************************ */
+footer {
+    background-color: #C5ACA9;
+    color: #fff;
+
+    ul {
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    li {
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+}
+
+
+.whatsApp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    i {
+        font-size: 3rem;
+    }
+}
